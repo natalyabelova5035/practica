@@ -25,7 +25,7 @@ namespace ConsoleApplication8
             }
             double a = (N * S3pairs - S1x * S2y) / (N * S4squares - S1x * S1x);
             double b = (S2y - a * S1x) / N;
-            Console.WriteLine("F=" + a + "*x+" + b);
+            Console.WriteLine("F= " + a + "*x+" + b);
             Console.ReadKey();
         }
     }
